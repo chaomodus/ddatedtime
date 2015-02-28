@@ -1,0 +1,33 @@
+
+Qulock
+======
+
+A Discordian Clock for Discordian time keeping. Pronounced 'clock'.
+
+1 std day is composed of
+  5 sessions (4.8 std hours / 17280 std seconds)
+    of 5 periods (0.96 std hours / 3456 std seconds)
+      of 25 bits (2.3 std minutes / 138 std seconds)
+         of 25 moments (5.52 std seconds) (moments may be divided further if finer time gradients are required, for example into 25 littlemoments of 0.2208 std seconds each)
+
+formatting:
+
+s:t:b.m
+
+example, midday is approximately
+
+2:2:12.13
+
+Alternatively we can name each session:
+
+  Hypnos, Hemera, Aether, Hesperides, Nyx
+
+And we can name each period within the sessions:
+
+  Geef, Lep, Shad, Kwok, Zin
+
+and thus midday is:
+
+Hemera Lep'12.13
+
+Qulock is synchronized to POEE Standard Time (PST), which is fixed to UTC-8. Qulock may be used in local times too but this is nonstandard.

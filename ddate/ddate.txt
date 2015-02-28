@@ -1,0 +1,200 @@
+
+PERPETUAL DATE CONVERTER FROM GREGORIAN TO POEE CALENDAR
+
+SEASONS
+1) Chaos - Patron Apostle Hung Mung
+2) Discord - Patron Apostle Dr. Van Van Mojo
+3) Confusion - Patron Apostle Sri Syadasti
+4) Bureaucracy - Patron Apostle Zarathud
+5) The Aftermath - Patron Apostle The Elder Malaclypse
+
+Days of the Week*
+1) Sweetmorn
+2) Boomtime
+3) Pungenday
+4) Prickle-Prickle
+5) Setting Orange
+
+* THE DAYS OF THE WEEK
+are named from the five
+Basic Elements: SWEET,
+BOOM, PUNGENT, PRICKLE
+and ORANGE.
+
+HOLYDAYS
+A] APOSTLE HOLYDAYS
+1) Mungday
+2) Mojoday
+3) Syaday
+4) Zaraday
+5) Maladay
+Each occurs on the 5th
+day of the Season
+
+
+B] SEASON HOLYDAYS
+1) Chaoflux
+2) Discoflux
+3) Confuflux
+4) Bureflux
+5) Afflux
+Each occurs on the 50th
+day of each Season
+
+C] ST. TIB'S DAY - occurs once every 4 years (1+4=5) and is inserted between the 59th and 60th days of the Season of Chaos
+
+
+Jan  1  2  3  4  5
+     6  7  8  9 10
+    11 12 13 14 15
+    16 17 18 19 20
+    21 22 23 24 25
+    26 27 28 29 30
+    31  1  2  3  4
+Feb  5  6  7  8  9
+    10 11 12 13 14
+    15 16 17 18 19
+    20 21 22 23 24
+    25 26 27 28* 1
+Mar  2  3  4  5  6
+     7  8  9 10 11
+    12 13 14 15 16
+    17 18 19 20 21
+    22 23 24 25 26
+    27 28 29 30 31
+Apr  1  2  3  4  5
+     6  7  8  9 10
+    11 12 13 14 15
+    16 17 18 19 20
+    21 22 23 24 25
+    26 27 28 29 30
+May  1  2  3  4  5
+     6  7  8  9 10
+    11 12 13 14 15
+    16 17 18 19 20
+    21 22 23 24 25
+    26 27 28 29 30
+    31  1  2  3  4
+Jun  5  6  7  8  9
+    10 11 12 13 14
+    15 16 17 18 19
+    20 21 22 23 24
+    25 26 27 28 29
+    30  1  2  3  4
+
+SM BT PD PP SO
+1  2  3  4  5 Chs
+ 6  7  8  9 10
+11 12 13 14 15
+16 17 18 19 20
+21 22 23 24 25
+26 27 28 29 30
+31 32 33 34 35
+36 37 38 39 40
+41 42 43 44 45
+46 47 48 49 50
+51 52 53 54 55
+56 57 58 59 60
+61 62 63 64 65
+66 67 68 69 70
+71 72 73  1  2 Dsc
+ 3  4  5  6  7
+ 8  9 10 11 12
+13 14 15 16 17
+18 19 20 21 22
+23 24 25 26 27
+28 29 30 31 32
+33 34 35 36 37
+38 39 40 41 42
+43 44 45 46 47
+48 49 50 51 52
+53 54 55 56 57
+58 59 60 61 62
+63 64 65 66 67
+68 69 70 71 72
+73  1  2  3  4 Cfn
+ 5  6  7  8  9
+10 11 12 13 14
+15 16 17 18 19
+20 21 22 23 24
+25 26 27 28 29
+30 31 32 33 34
+35 36 37 38 39
+
+
+Jul  5  6  7  8  9
+    10 11 12 13 14
+    15 16 17 18 19
+    20 21 22 23 24
+    25 26 27 28 29
+    30 31  1  2  3
+Aug  4  5  6  7  8
+     9 10 11 12 13
+    14 15 16 17 18
+    19 20 21 22 23
+    24 25 26 27 28
+    29 30 31  1  2
+Sep  3  4  5  6  7
+     8  9 10 11 12
+    13 14 15 16 17
+    18 19 20 21 22
+    23 24 25 26 27
+    28 29 30  1  2
+Oct  3  4  5  6  7
+     8  9 10 11 12
+    13 14 15 16 17
+    18 19 20 21 22
+    23 24 25 26 27
+    28 29 30 31  1
+Nov  2  3  4  5  6
+     7  8  9 10 11
+    12 13 14 15 16
+    17 18 19 20 21
+    22 23 24 25 26
+    27 28 29 30  1
+Dec  2  3  4  5  6
+     7  8  9 10 11
+    12 13 14 15 16
+    17 18 19 20 21
+    22 23 24 25 26
+    27 28 29 30 31
+[1970 = 3136] [Next St.
+
+SM BT PD PP SO
+40 41 42 43 44 Cfn
+45 46 47 48 49
+50 51 52 53 54
+55 56 57 58 59
+60 61 62 63 64
+65 66 67 68 69
+70 71 72 73  1 Bcy
+ 2  3  4  5  6
+ 7  8  9 10 11
+12 13 14 15 16
+17 18 19 20 21
+22 23 24 25 26
+27 28 29 30 31
+32 33 34 35 36
+37 38 39 40 41
+42 43 44 45 46
+47 48 49 50 51
+52 53 54 55 56
+57 58 59 60 61
+62 63 64 65 66
+67 68 69 70 71
+72 73  1  2  3 Afm
+ 4  5  6  7  8
+ 9 10 11 12 13
+14 15 16 17 18
+19 20 21 22 23
+24 25 26 27 28
+29 30 31 32 33
+34 35 36 37 38
+39 40 41 42 43
+44 45 46 47 48
+49 50 51 52 53
+54 55 56 57 58
+59 60 61 62 63
+64 65 66 67 68
+69 70 71 72 73
+Tibs Day in 3166]
