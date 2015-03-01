@@ -1,0 +1,19 @@
+{
+  "uuid": "3f18f805-a0aa-4574-a1e8-0ad3b16aa56a",
+  "shortName": "qulawk",
+  "longName": "qulawk",
+  "companyName": "PixyFoo",
+  "versionCode": 1,
+  "versionLabel": "0.1",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "timezoneOffset": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

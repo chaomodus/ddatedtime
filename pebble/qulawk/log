@@ -1,0 +1,53 @@
+Setting top to                           : /home/cas/proj/ddatedtime/pebble/qulawk 
+Setting out to                           : /home/cas/proj/ddatedtime/pebble/qulawk/build 
+Found Pebble SDK for aplite in:          : /home/cas/proj/pebble-dev/PebbleSDK-3.0-dp1/Pebble/aplite 
+Checking for program gcc,cc              : arm-none-eabi-gcc 
+Checking for program ar                  : arm-none-eabi-ar 
+Found Pebble SDK for basalt in:          : /home/cas/proj/pebble-dev/PebbleSDK-3.0-dp1/Pebble/basalt 
+Checking for program gcc,cc              : arm-none-eabi-gcc 
+Checking for program ar                  : arm-none-eabi-ar 
+'configure' finished successfully (0.065s)
+Waf: Entering directory `/home/cas/proj/ddatedtime/pebble/qulawk/build'
+[ 1/31] subst: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/pebble_app.ld.template -> build/aplite/pebble_app.ld.auto
+[ 2/31] appinfo.auto.c: appinfo.json -> build/aplite/appinfo.auto.c
+[ 3/31] app_resources.pbpack.table: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/pbpack_meta_data.py -> build/aplite/app_resources.pbpack.table
+[ 4/31] app_resources.pbpack.manifest: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/pbpack_meta_data.py -> build/aplite/app_resources.pbpack.manifest
+[ 5/31] app_resources.pbpack.data: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/pbpack_meta_data.py -> build/aplite/app_resources.pbpack.data
+[ 6/31] resource_ids.auto.h: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/generate_resource_code.py -> build/aplite/src/resource_ids.auto.h
+[ 7/31] subst: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/pebble_app.ld.template -> build/basalt/pebble_app.ld.auto
+[ 8/31] appinfo.auto.c: appinfo.json -> build/basalt/appinfo.auto.c
+[ 9/31] app_resources.pbpack.table: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/pbpack_meta_data.py -> build/basalt/app_resources.pbpack.table
+[10/31] app_resources.pbpack.manifest: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/pbpack_meta_data.py -> build/basalt/app_resources.pbpack.manifest
+[11/31] app_resources.pbpack.data: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/pbpack_meta_data.py -> build/basalt/app_resources.pbpack.data
+[12/31] resource_ids.auto.h: ../../../pebble-dev/PebbleSDK-3.0-dp1/Pebble/common/tools/generate_resource_code.py -> build/basalt/src/resource_ids.auto.h
+[13/31] qulawk-routine.h: ../../qulawk/c/qulawk-routine.h -> build/qulawk-routine.h
+[14/31] qulawk-routine.c: ../../qulawk/c/qulawk-routine.c -> build/qulawk-routine.c
+[15/31] ddate-routine.c: ../../ddate/c/ddate-routine.c -> build/ddate-routine.c
+[16/31] ddate-routine.h: ../../ddate/c/ddate-routine.h -> build/ddate-routine.h
+[17/31] app_resources.pbpack: build/aplite/app_resources.pbpack.manifest build/aplite/app_resources.pbpack.table build/aplite/app_resources.pbpack.data -> build/aplite/app_resources.pbpack
+[18/31] app_resources.pbpack: build/basalt/app_resources.pbpack.manifest build/basalt/app_resources.pbpack.table build/basalt/app_resources.pbpack.data -> build/basalt/app_resources.pbpack
+[19/31] c: build/aplite/appinfo.auto.c -> build/aplite/appinfo.auto.c.19.o
+[20/31] c: build/basalt/appinfo.auto.c -> build/basalt/appinfo.auto.c.20.o
+[21/31] c: src/qulawk.c -> build/src/qulawk.c.20.o
+[22/31] c: src/qulawk.c -> build/src/qulawk.c.19.o
+[23/31] cprogram: build/src/qulawk.c.20.o build/basalt/appinfo.auto.c.20.o -> build/basalt/pebble-app.elf
+[24/31] cprogram: build/src/qulawk.c.19.o build/aplite/appinfo.auto.c.19.o -> build/aplite/pebble-app.elf
+[25/31] pebble-app.raw.bin: build/basalt/pebble-app.elf -> build/basalt/pebble-app.raw.bin
+[26/31] report-memory-usage: build/basalt/pebble-app.elf
+basalt app memory usage:
+=============
+Total footprint in RAM:            848 bytes / ~64kb
+Free RAM available (heap):       64688 bytes
+ 
+[27/31] report-memory-usage: build/aplite/pebble-app.elf
+[28/31] pebble-app.raw.bin: build/aplite/pebble-app.elf -> build/aplite/pebble-app.raw.bin
+aplite app memory usage:
+=============
+Total footprint in RAM:            848 bytes / ~24kb
+Free RAM available (heap):       23728 bytes
+ 
+[29/31] inject-metadata: build/basalt/pebble-app.raw.bin build/basalt/pebble-app.elf build/basalt/app_resources.pbpack.data -> build/basalt/pebble-app.bin
+[30/31] inject-metadata: build/aplite/pebble-app.raw.bin build/aplite/pebble-app.elf build/aplite/app_resources.pbpack.data -> build/aplite/pebble-app.bin
+[31/31] qulawk.pbw: build/aplite/pebble-app.bin build/aplite/app_resources.pbpack build/basalt/pebble-app.bin build/basalt/app_resources.pbpack -> build/qulawk.pbw
+Waf: Leaving directory `/home/cas/proj/ddatedtime/pebble/qulawk/build'
+'build' finished successfully (0.394s)

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <string.h>
 #include <libgen.h>
@@ -6,10 +7,6 @@
 #include <getopt.h>
 #include "ddate-routine.h"
 
-const char *shortDayNames[] = {"SM","BT","PD","PP","SO"};
-const char *longDayNames[] = {"Sweetmorn","Boomtime","Pungenday","Prickle-Prickle","Setting Orange"};
-const char *stortSeasonNames[] = {"Chs","Dsc","Cfn","Bcy","Afm"};
-const char *longSeasonNames[] = {"Chaos","Discord","Confusion","Bureaucracy","The Aftermath"};
 const unsigned short seasonStarts[] = {0, 3, 1, 4, 2};
 
 #define DCAL_MODE 0
@@ -76,7 +73,7 @@ int main(int argc, char **argv)
       for (i=1; i < 11; i++)
 	{
 	  dayoffs += 1;
-	  
+
 	  printf("%s%s",shortDayNames[dayoffs-1], dayoffs == 5 ? "|" : " ");
 
 	  if (dayoffs == 5)
@@ -91,7 +88,7 @@ int main(int argc, char **argv)
       for (i=1; i < 11; i++)
 	{
 	  dayoffs += 1;
-	  
+
 	  printf("--%s",dayoffs == 5 ? "+" : "-");
 
 	  if (dayoffs == 5)
@@ -112,7 +109,7 @@ int main(int argc, char **argv)
 		;
 	      else
 		{
-		  dayoffs = dayoffs + 1;	     
+		  dayoffs = dayoffs + 1;
 		  printf("%2d",(i*10)+j);
 		  if (((i * 10) + j) == myddate.day_of_season)
 	          {
@@ -130,7 +127,7 @@ int main(int argc, char **argv)
 			  dayoffs = 0;
 	                }
                      }
-		        
+
 		  else if (dayoffs == 5)
 		    {
 		      putchar('|');
@@ -146,4 +143,3 @@ int main(int argc, char **argv)
   putchar('\n');
 
 }
-

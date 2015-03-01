@@ -1,14 +1,19 @@
-/* 
+/*
+  DDATE
 
-   Fargus D-date
+  Converts date into Discordian/Illuminati reconing.
 
-   Converts date into Discordian/Illuminati reconing.
+  (C) Copyright 1999 by Nick A. Rusnov <nick@fargus.net>
+  Updates 2015 by Cas Rusnov
 
-   (C) Copyright 1999 by Nick A. Rusnov <nick@fargus.net>
- 
  */
 
 #include "ddate-routine.h"
+
+const char *shortDayNames[] = {"SM","BT","PD","PP","SO"};
+const char *longDayNames[] = {"Sweetmorn","Boomtime","Pungenday","Prickle-Prickle","Setting Orange"};
+const char *shortSeasonNames[] = {"Chs","Dsc","Cfn","Bcy","Afm"};
+const char *longSeasonNames[] = {"Chaos","Discord","Confusion","Bureaucracy","The Aftermath"};
 
 void xlate_ddate(struct ddate_t *ddate, unsigned short yday, unsigned short year, unsigned short mon, unsigned short mday)
 {
@@ -19,7 +24,7 @@ void xlate_ddate(struct ddate_t *ddate, unsigned short yday, unsigned short year
     return;
 
   myyday = yday;
-  
+
   if ((!yday) && (!year))
     {
       ddate->i_year = 0;
@@ -37,7 +42,7 @@ void xlate_ddate(struct ddate_t *ddate, unsigned short yday, unsigned short year
     {
       myyday--;
     }
- 
+
   if ((mon == 2) && (mday == 29))
     {
       ddate->sttibbs = 1;
