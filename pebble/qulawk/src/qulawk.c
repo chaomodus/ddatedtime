@@ -51,7 +51,7 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
   xlate_qulawk(&qlawk, tm_now, 0);
   snprintf(s_bigtime_str, 5, "%1d:%1d", qlawk.session, qlawk.period);
   snprintf(s_bigtime_sm_str, 6, "%02d.%02d",  qlawk.bit, qlawk.moment);
-  snprintf(s_desctime_str, 16, "%s %s", sessionNames[qlawk.session-1], periodNames[qlawk.period-1]);
+  snprintf(s_desctime_str, 16, "%s %s", sessionNames[qlawk.session], periodNames[qlawk.period]);
   if (ddate.sttibbs) {
     strcpy(s_ddate_str, "St. Tibb's Day");
     s_ddate_day_str[0] = 0;

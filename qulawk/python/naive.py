@@ -15,4 +15,4 @@ secs = secs % 138
 moment = int(secs // 5.52)
 
 print "%s:%s:%s.%s" % (session, period, bit, moment)
-print "%s %s'%s.%s" % (sessions[session-1], periods[period-1], bit, moment)
+print "%s %s'%s.%s" % (sessions[session], periods[period], bit, moment)
