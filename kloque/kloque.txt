@@ -1,0 +1,38 @@
+KLOQUE ODD# 3933333333333-1/7
+-----------------------------
+
+This time system is synchronized to local solar noon (that is, the
+point of the day at which the sun is highest in the sky). It divides
+the times between solar noons into 10 equal parts (sessions),
+numbered, from noon, 0 through 5, and then -4 though 0. Session 5 may
+be shown as +/- 5 since it is +5. Day changes happen at +/-5.
+
+Each session is further divided into 10 blocs (numbered 0..9), which
+are again divided into 30 moments (numbered 0..29).
+
+Approximate conversions:
+
+Session - 4.8 hours (17280 seconds)
+Bloc - 28.8 minutes (1728 seconds)
+Moment - 57.6 secontds
+
+THese conversions assume a 24 hour (86400 second) civil day.
+
+The Kloque is displayed in digital form thus:
+
+[-]S:BB.MM
+
+Such as:
+
+-3:05.23
+
+In analogue form, divide a circle into 10 equal segments (a regular decagon),
+with vertexes at the top and bottom position. Divide the 10 segemnts into
+3rds. A slender hand sweeps these 3rds to indicate moments. A long, wide
+arrowed hand sweeps the vertexes to indicate the bloc. A short, flattened
+hand sweeps the vertexes to indicate the session.
+
+For practical reasons, civil noon may be substituted for solar noon, since
+under many circumstances civil noon is available but solar noon isn't as
+readily so (such as watches or clocks without positional data or solar
+detection devices).
