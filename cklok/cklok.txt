@@ -1,0 +1,29 @@
+ODD# 73-a-1/2.1
+
+Cklok is a Discordian clock for practical Discordian time keeping.
+
+Cklok has no time zones, and is pinned to GMT-8:00 (POEE Stardand Time).
+
+Cklok divides the day into 10 equal parts known as periods, numbered 1 to 10, each 8640 seconds long. These
+periods have names: Laan, Piit, Jiid, Voox, Zuul, Sooz, Ziim, Naar, Tlaat.
+
+Each period is divided into 5 equal sessions, numbered 1 to 5, each 1728 seconds long. These sessions have
+names, Tlof, Tluc, Notl, Thoz, and Civ.
+
+Each session is divided into 50 moments, numbered 0 to 49 each about 58 seconds long.
+Each moment is divided into 100 centimoments numbered 0 to 99 each about 0.6 seconds long.
+
+Time may presented purely as numbers, such as:
+
+5'2:24.49
+
+Or with words and numbers such as:
+
+Zuul Tluc:24.49
+
+
+It may also be displayed as an analogue time piece. The disc of the face is divided into 10 equal parts such that a short arrow hand can indicate
+the period. Every other period mark is highlighted, and swept by the longer session hand.. Each session is divided into 10 small points for even longer,
+pointier moment hand. A fine centimoment hand sweeps the face for each moment.
+
+SO IT IS WRITTEN SO BE IT HAIL ERIS
